@@ -1,0 +1,8 @@
+<view class="wrapper">
+  <view class='title'>二、image + position方式实现</view>
+  <view class='input-box'>
+    <image class='input-img' src='/images/1.png'></image>
+    <view class='input-num input-num-{{index}}' wx:for="{{numbers}}" wx:key="{{index}}" bindtap='tapNumber'>{{item}}</view>
+    <input type='number' class='input-text' bindinput='inputNumber' focus='{{focus}}' maxlength='4'></input>
+  </view>
+</view>

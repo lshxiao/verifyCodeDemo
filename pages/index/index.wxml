@@ -1,0 +1,7 @@
+<view class="wrapper">
+  <view class='title'>一、canvas方式实现</view>
+  <view class='input-box'>
+    <canvas class='input-canvas' canvas-id="numberCanvas" bindtap='tapNumber'></canvas>
+    <input type='number' class='input-text' bindinput='inputNumber' focus='{{focus}}' maxlength='4'></input>
+  </view>
+</view>
