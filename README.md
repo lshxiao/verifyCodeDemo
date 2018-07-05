@@ -94,3 +94,6 @@ Page({
 ```
 
 ![demo2](/images/3.gif)
+
+### 想添加小程序技术群，可以添加下方小助手
+![demo2](http://demos.pxuexiao.com/web_css/img/xigua_net.jpeg)
